@@ -1,0 +1,250 @@
+.form-group {
+    position: relative;
+    margin-bottom: 1.5rem
+}
+/* making form size and full name and color become gray and writing text inside box (email,password) */
+.form-control-placeholder {
+    position: absolute;
+    top: 0;
+    padding: 7px 0 0 13px;
+    transition: all 200ms;
+    opacity: 0.5;
+    color: grey
+} 
+/* esse font upper chale jata hai(full name , email , password) */
+.form-control:focus+.form-control-placeholder,
+.form-control:valid+.form-control-placeholder {
+    font-size: 75%;
+    transform: translate3d(0, -100%, 0);
+    opacity: 1
+}
+/* removing the border */
+.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid grey
+} 
+
+/* changing the text line color onclick */
+input.form-control:focus,
+input.form-control:after {
+    outline-width: 0;
+    border-bottom: 1px solid red;
+    background: transparent
+}
+
+/* eske karan modal black or text color white */
+.modal-content {
+    color: white;
+    background-image: radial-gradient(circle 919px at 1.7% 6.1%, rgb(12, 12, 12) 0%, rgba(10, 10, 10, 0.85) 100.2%)
+}
+
+/* .modal {
+    background-image: radial-gradient(circle 919px at 1.7% 6.1%, rgba(41, 58, 76, 1) 0%, rgba(40, 171, 226, 1) 100.2%)
+} */
+
+/* .tc {
+    font-size: 12px
+} */
+
+/* eske karan button left side move hua */
+.modal-footer {
+    justify-content: flex-start
+}
+
+/* eske karan button color or backgound sb change hua */
+.signup {
+    background: rgb(252, 8, 8);
+    background: linear-gradient(90deg, rgb(248, 6, 6) 0%, rgb(14, 5, 6) 100%);
+    border-radius: 34rem;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    height: 46px
+}
+
+.bt{
+    background: rgb(252, 8, 8);
+    background: linear-gradient(90deg, rgb(248, 6, 6) 0%, rgb(14, 5, 6) 100%);
+    border-radius: 34rem;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    height: 46px
+}
+
+/* cross ka size chota or red */
+.close {
+    color: gray;
+    font-size: 12px;
+    position: relative;
+    top: 20px
+}
+
+/* h5 {
+    font-size: 2rem;
+    font-weight: 900
+} */
+
+/* only admin */
+.title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: red;
+}
+
+/* x ko side me la rha hai */
+.x {
+    color: red;
+    font-size: 40px;
+    font-weight: 100;
+    display: flex;
+    flex-direction: row-reverse;
+    top: 0
+}
+
+/* esse button click hone ke bad shine nhi hota hai */
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none !important
+} 
+
+.x.focus,
+.x:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.nav-link:hover {
+    background:linear-gradient(90deg, rgb(248, 6, 6) 0%, rgb(14, 5, 6) 100%);
+    color: #000;
+    border-radius: 50%;
+}
+
+.header {
+    max-height: 100%;
+    min-width: 100%;
+    background-image: url('../image/software.jpg');
+    border-bottom-left-radius: 500px;
+    border-top-right-radius: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    box-shadow: 35px 50px 0px 0px,35px 0px 0px 0px;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    
+    background: linear-gradient(90deg, rgba(248, 6, 6,0.80) 0%, rgba(14, 5, 0.8) 100%);
+    border-bottom-left-radius: 500px;
+    border-top-right-radius: 500px;
+} 
+
+h1{
+    color: white;
+    font-size:400px;
+}
+
+.description h2{
+    position: absolute;
+    top: 40%;
+    left:35%;
+    margin: auto; 
+    font-size: 55px;
+}
+
+.description img{
+    position: absolute;
+    top: 70%;
+    left:35%;
+    filter: brightness(60%);
+    margin: auto; 
+    font-size: 55px;
+}
+
+#programs{
+        text-align: center;
+        position: relative;
+        background: #f7f7f9;
+        padding:50px 0;
+        margin-bottom: 50px;
+    
+}
+
+#programs h2{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    
+}
+
+#programs .pcontent{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+}
+
+.half{
+    color: red;
+}
+
+.form-control-placeholder .fg{
+    position: absolute;
+    top: 0;
+    padding: 7px 0 0 13px;
+    transition: all 200ms;
+    opacity: 0.5;
+    color: grey
+} 
+/* esse font upper chale jata hai(full name , email , password) */
+.form-control:focus+.form-control-placeholder,
+.form-control:valid+.form-control-placeholder {
+    font-size: 75%;
+    transform: translate3d(0, -100%, 0);
+    opacity: 1
+}
+/* removing the border */
+.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid grey
+} 
+
+/* changing the text line color onclick */
+input.form-control:focus,
+input.form-control:after {
+    outline-width: 0;
+    border-bottom: 1px solid red;
+    background: transparent
+}
+
+.faq{
+    padding: 50px 0;
+    position: relative;
+}
+
+.faq:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(160deg,#f0091d 55%,#fff 0%);
+}
+
+.frm{
+    background: linear-gradient(160deg,#f0091d 55%,#fff 0%);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+
